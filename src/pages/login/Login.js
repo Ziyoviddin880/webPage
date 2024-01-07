@@ -10,7 +10,7 @@ function Login({ setLogin, user }) {
   const [seePassword, setSeePassword] = useState(false);
   const [isPassword, setIsPassword] = useState(true);
 
-  const userLogin = (e) => {
+  const userLogin = () => {
     if (passwordValue.current.value === user.password) {
       navigate("/");
       setIsPassword(true);

@@ -18,7 +18,7 @@ function App() {
     },
     {
       path: "/",
-      element: <Home login={login} />,
+      element: <Home setUser={setUser} login={login} />,
     },
   ]);
   return (

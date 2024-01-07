@@ -8,7 +8,7 @@ function Home({ login }) {
     if (!login) {
       navigate("/login");
     }
-  }, []);
+  }, [login]);
 
   return (
     <div className="homePage">
