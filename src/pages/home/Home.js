@@ -6,9 +6,9 @@ function Home({ login }) {
   const navigate = useNavigate();
   useEffect(() => {
     if (!login) {
-      navigate("/login");
+      navigate("login");
     }
-  }, [navigate]);
+  }, [login]);
 
   return (
     <div className="homePage">
